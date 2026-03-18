@@ -1,0 +1,14 @@
+{
+  "name": "tannoy",
+  "version": "1.0.0",
+  "description": "Tannoy — Planning-Sprint announcements (Eddie/Marvin, TTS, AI narration)",
+  "scripts": {
+    "start": "npx serve . -p 3333",
+    "serve": "npx serve . -p 3333",
+    "server": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
